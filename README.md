@@ -53,6 +53,7 @@ Note that this is not a full list, but I will try to make it as comprehensive as
 - Lei, Jing, Anne-Sophie Charest, Aleksandra Slavkovic, Adam Smith, and Stephen Fienberg. "Differentially private model selection with penalized and constrained likelihood." 2018.
 
 #### Bernoulli
+- Butucea, Cristina, et al. "Local differential privacy: Elbow effect in optimal density estimation and adaptation over Besov ellipsoids." 2020.
 - Lam-Weil, J., Laurent, B., & Loubes, J. M. ["Minimax optimal goodness-of-fit testing for densities and multinomials under a local differential privacy constraint."](https://arxiv.org/pdf/2002.04254.pdf) 2022.
 
 #### Annual Review of Statistics and Its Application
