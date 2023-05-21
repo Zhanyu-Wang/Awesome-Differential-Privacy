@@ -33,7 +33,7 @@ The list below is from this report: [Technology Factsheet: Differential Privacy.
 - [Microsoft](https://blogs.microsoft.com/ai-for-business/differential-privacy/), [Facebook](https://research.facebook.com/blog/2020/06/protecting-privacy-in-facebook-mobility-data-during-the-covid-19-response/), [Amazon](https://github.com/awslabs/sagemaker-privacy-for-nlp), [Snapchat](https://eng.snap.com/device-distributed-machine-learning), [LinkedIn](https://arxiv.org/pdf/2002.05839.pdf)
 - ...
 
-The table below is from this paper: [LinkedIn’s Audience Engagements API: A Privacy Preserving Data Analytics System at Scale](https://arxiv.org/pdf/2002.05839.pdf)
+The table below is from this paper in 2020: [LinkedIn’s Audience Engagements API: A Privacy Preserving Data Analytics System at Scale](https://arxiv.org/pdf/2002.05839.pdf)
 
 | Use Case |  Privacy    Model  |  DP Algorithm    Parameters  $(\epsilon, \delta)$ |  Daily DP    Parameters  $\left(\epsilon_{day}, \delta_{day} \right)$ |  Monthly DP    Parameters  $\left(\epsilon_{month} , \delta_{month} \right)$ |
 | :---: | :---: | :---: | :---: | :---: |
@@ -105,3 +105,19 @@ Note that this is not a full list, but I will try to make it as comprehensive as
 ## Existing github repos about DP
 - [Billy1900/Awesome-Differential-Privacy](https://github.com/Billy1900/Awesome-Differential-Privacy)
 - [menisadi/awesome-differential-privacy](https://github.com/menisadi/awesome-differential-privacy)
+
+---
+
+Please cite this post using either this `BibTeX` entry
+```
+@misc{wang2023awesome,
+  title   = "Awesome Differential Privacy for Statisticians",
+  author  = "Wang, Zhanyu",
+  year    = "2023",
+  howpublished = "\url{https://github.com/Zhanyu-Wang/Awesome-Differential-Privacy-for-Statisticians/blob/main/README.md}"
+}
+```
+or just
+
+`Zhanyu Wang. Awesome differential privacy for statisticians. https://github.com/Zhanyu-Wang/Awesome-Differential-Privacy-for-Statisticians/blob/main/README.md, 2023.`
+
