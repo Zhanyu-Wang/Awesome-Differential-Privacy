@@ -2,8 +2,8 @@
 
 ## What is special about 'DP for STAT'?
 1. Knowledge about the population instead of the sample. 
-2. Quantification of uncertainty from various sources. 
-3. Art of the tradeoff between utility and privacy. 
+2. Quantification of uncertainty from various sources (sampling error + noise for privacy protection). 
+3. Art of the tradeoff between statistical utility and privacy. 
 
 ---
 
@@ -22,7 +22,7 @@
 
 Maybe it is necessary to emphasize: [Statistical Inference is Not a Privacy Violation](https://differentialprivacy.org/inference-is-not-a-privacy-violation/)
 
-What about other privacy protection techniques, e.g., tokenization, masking, k-anonymity? [What anonymization techniques can you trust?](https://desfontain.es/privacy/trustworthy-anonymization.html)
+What about other privacy protection techniques, e.g., tokenization, masking, k-anonymity? They will fail in some cases. See this blog: [What anonymization techniques can you trust?](https://desfontain.es/privacy/trustworthy-anonymization.html)
 
 ## Who are using DP?
 The list below is from this report: [Technology Factsheet: Differential Privacy.](https://www.belfercenter.org/sites/default/files/files/publication/diffprivacy-3.pdf)  Authors: Raina Gandhi, Amritha Jayanti. Related: Alexandra Wood, Michael B. Hawes. Fall 2020.
@@ -45,13 +45,12 @@ The table below is from this paper in 2020: [LinkedIn’s Audience Engagements A
 |  Microsoft - Assistive    AI  | Global | $(4,10^{-7})$ | Not available | Not available |
 |  LinkedIn - Audience    Engagement API  | Global | $(0.15,10^{-10})$ | - | $(34.9,7 \times 10^{-9})$ |
 
+---
 
 ## Statisticians' slides
-- Vishesh Karwa. [Differential Privacy and Statistical Inference: A statistician’s perspective](https://simons.berkeley.edu/sites/default/files/docs/6713/karwa-statisticalinferenceandprivacy.pdf)
-- Aleksandra Slavković. [Differentially Private Estimators & Basic Statistical Inference](http://helper.ipam.ucla.edu/publications/data2010/data2010_8553.pdf)
-- John C. Duchi. [Local Privacy, Statistical Minimax Rates, and Learning](https://web.stanford.edu/~jduchi/projects/DuchiJoWa13_talk.pdf)
-
----
+- Vishesh Karwa. [Differential Privacy and Statistical Inference: A statistician’s perspective.](https://simons.berkeley.edu/sites/default/files/docs/6713/karwa-statisticalinferenceandprivacy.pdf) 2017.
+- Aleksandra Slavković. [Differentially Private Estimators & Basic Statistical Inference.](http://helper.ipam.ucla.edu/publications/data2010/data2010_8553.pdf) 2010.
+- John C. Duchi. [Local Privacy, Statistical Minimax Rates, and Learning.](https://web.stanford.edu/~jduchi/projects/DuchiJoWa13_talk.pdf) 2013.
 
 ## Papers
 Note that this is not a full list, but I will try to make it as comprehensive as possible.
