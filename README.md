@@ -10,6 +10,9 @@
 ## Intro for beginners
 - [Why differential privacy is awesome](https://desfontain.es/privacy/differential-privacy-awesomeness.html)
 - [Differential Privacy: An Introduction for First Graders](https://www.dataversity.net/differential-privacy-an-introduction-for-first-graders/#)
+- [Differential privacy, an easy case](https://accuracyandprivacy.substack.com/)
+- [Differential Privacy: A Primer for a Non-technical Audience (2017)](https://privacytools.seas.harvard.edu/files/privacytools/files/pedagogical-document-dp_0.pdf)
+- [Challenges towards the Next Frontier in Privacy (2023)](https://arxiv.org/pdf/2304.06929.pdf)
 
 ## What are the privacy issues when not using DP?
 - [Potential privacy lapse found in Americans’ 2010 census data - AP News](https://apnews.com/article/aba8e57c145047b5bab11b62baaa7f7a)
@@ -19,9 +22,29 @@
 
 Maybe it is necessary to emphasize: [Statistical Inference is Not a Privacy Violation](https://differentialprivacy.org/inference-is-not-a-privacy-violation/)
 
+What about other privacy protection techniques, e.g., tokenization, masking, k-anonymity? [What anonymization techniques can you trust?](https://desfontain.es/privacy/trustworthy-anonymization.html)
+
 ## Who are using DP?
-- [US Census](https://www.nytimes.com/2018/12/05/upshot/to-reduce-privacy-risks-the-census-plans-to-report-less-accurate-data.html)
-- [Google](https://static.googleusercontent.com/media/research.google.com/de//pubs/archive/42852.pdf), [Apple](https://docs-assets.developer.apple.com/ml-research/papers/learning-with-privacy-at-scale.pdf), [Microsoft](https://blogs.microsoft.com/ai-for-business/differential-privacy/), [Facebook](https://research.facebook.com/blog/2020/06/protecting-privacy-in-facebook-mobility-data-during-the-covid-19-response/), [Amazon](https://github.com/awslabs/sagemaker-privacy-for-nlp), [Snapchat](https://eng.snap.com/device-distributed-machine-learning), [Uber](https://www.wired.com/story/uber-privacy-elastic-sensitivity/), etc.
+The list below is from this report: [Technology Factsheet: Differential Privacy.](https://www.belfercenter.org/sites/default/files/files/publication/diffprivacy-3.pdf)  Authors: Raina Gandhi, Amritha Jayanti. Related: Alexandra Wood, Michael B. Hawes. Fall 2020.
+- [US Census (2020)](https://www.nytimes.com/2018/12/05/upshot/to-reduce-privacy-risks-the-census-plans-to-report-less-accurate-data.html): with [ε=19.61](https://www.census.gov/newsroom/press-releases/2021/2020-census-key-parameters.html)
+- [Google Chrome](https://static.googleusercontent.com/media/research.google.com/de//pubs/archive/42852.pdf): [(RAPPOR with ε=2 for particular data, and ε=8 or 9 over the lifetime of the user)](https://www.wired.com/story/apple-differential-privacy-shortcomings/)
+- [Apple](https://docs-assets.developer.apple.com/ml-research/papers/learning-with-privacy-at-scale.pdf): [(official budget explanation)](https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf) [(MacOS10.12 with ε=6, iOS10 with ε=14, iOS11 Beta with ε=43)](https://www.wired.com/story/apple-differential-privacy-shortcomings/)
+- [Uber](https://www.wired.com/story/uber-privacy-elastic-sensitivity/): [Differential Privacy at Scale: Uber and Berkeley Collaboration](https://www.usenix.org/conference/enigma2018/presentation/ensign)
+- [Microsoft](https://blogs.microsoft.com/ai-for-business/differential-privacy/), [Facebook](https://research.facebook.com/blog/2020/06/protecting-privacy-in-facebook-mobility-data-during-the-covid-19-response/), [Amazon](https://github.com/awslabs/sagemaker-privacy-for-nlp), [Snapchat](https://eng.snap.com/device-distributed-machine-learning), [LinkedIn](https://arxiv.org/pdf/2002.05839.pdf)
+- ...
+
+The table below is from this paper: [LinkedIn’s Audience Engagements API: A Privacy Preserving Data Analytics System at Scale](https://arxiv.org/pdf/2002.05839.pdf)
+
+| Use Case |  Privacy    Model  |  DP Algorithm    Parameters  $(\epsilon, \delta)$ |  Daily DP    Parameters  $\left(\epsilon_{day}, \delta_{day} \right)$ |  Monthly DP    Parameters  $\left(\epsilon_{month} , \delta_{month} \right)$ |
+| :---: | :---: | :---: | :---: | :---: |
+|  Google - RAPPOR     Chrome Homepages  | Local | (0.534,0) | (25.63,0) 30 min reporting  | (769,0) |
+|  Apple - Safari    Domains   | Local | (4,0) | (8,0) | (240,0) |
+| Apple - Emojis  | Local |(4,0) | (4,0) | (120,0) |
+|  Microsoft - Telemetry    Collection per App  | Local  | (0.686,0) | (2.74,0)   hour reporting  | (82.2,0) |
+|  Google - Mobility    Reports   | Global | (0.11,0)  or  (0.22,0) | (2.64,0) | (79.2,0) |
+|  Microsoft - Assistive    AI  | Global | $(4,10^{-7})$ | Not available | Not available |
+|  LinkedIn - Audience    Engagement API  | Global | $(0.15,10^{-10})$ | - | $(34.9,7 \times 10^{-9})$ |
+
 
 ## Statisticians' slides
 - Vishesh Karwa. [Differential Privacy and Statistical Inference: A statistician’s perspective](https://simons.berkeley.edu/sites/default/files/docs/6713/karwa-statisticalinferenceandprivacy.pdf)
