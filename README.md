@@ -6,7 +6,7 @@
 3. Art of the tradeoff between statistical utility and privacy. 
 
 ---
-
+(This part is for general readers including statisticians.)
 ## Intro for beginners
 - [Why differential privacy is awesome](https://desfontain.es/privacy/differential-privacy-awesomeness.html)
 - [Differential Privacy: An Introduction for First Graders](https://www.dataversity.net/differential-privacy-an-introduction-for-first-graders/#)
