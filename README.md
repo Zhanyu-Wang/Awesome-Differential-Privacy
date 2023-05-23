@@ -45,12 +45,19 @@ The table below is from this paper in 2020: [LinkedIn’s Audience Engagements A
 |  Microsoft - Assistive    AI  | Global | $(4,10^{-7})$ | Not available | Not available |
 |  LinkedIn - Audience    Engagement API  | Global | $(0.15,10^{-10})$ | - | $(34.9,7 \times 10^{-9})$ |
 
+### How to choose epsilon?
+- Lee, Jaewoo, and Chris Clifton. "How much is enough? choosing ε for differential privacy." In Information Security: 14th International Conference, ISC 2011, Xi’an, China, October 26-29, 2011. Proceedings 14, pp. 325-340. Springer Berlin Heidelberg, 2011.
+- Hsu, Justin, Marco Gaboardi, Andreas Haeberlen, Sanjeev Khanna, Arjun Narayan, Benjamin C. Pierce, and Aaron Roth. "Differential privacy: An economic method for choosing epsilon." In 2014 IEEE 27th Computer Security Foundations Symposium, pp. 398-410. IEEE, 2014.
+- Dwork, Cynthia, Nitin Kohli, and Deirdre Mulligan. ["Differential privacy in practice: Expose your epsilons!."](https://journalprivacyconfidentiality.org/index.php/jpc/article/download/689/685/) Journal of Privacy and Confidentiality 9, no. 2 (2019).
+- Nanayakkara, Priyanka, Johes Bater, Xi He, Jessica Hullman, and Jennie Rogers. ["Visualizing privacy-utility trade-offs in differentially private data releases."](https://mucollective.northwestern.edu/files/2022-visualizing_privacy.pdf)  Proceedings on Privacy Enhancing Technologies 2022, no. 2 (2022): 601-618.
+
 ---
 
 ## Statisticians' slides
-- Vishesh Karwa. [Differential Privacy and Statistical Inference: A statistician’s perspective.](https://simons.berkeley.edu/sites/default/files/docs/6713/karwa-statisticalinferenceandprivacy.pdf) 2017.
 - Aleksandra Slavković. [Differentially Private Estimators & Basic Statistical Inference.](http://helper.ipam.ucla.edu/publications/data2010/data2010_8553.pdf) 2010.
+- Larry Wasserman. [A Statistical View of Differential Privacy](https://www.cs.cmu.edu/afs/cs/usr/wing/www/class/15-895/LarryWasserman.pdf) 2011.
 - John C. Duchi. [Local Privacy, Statistical Minimax Rates, and Learning.](https://web.stanford.edu/~jduchi/projects/DuchiJoWa13_talk.pdf) 2013.
+- Vishesh Karwa. [Differential Privacy and Statistical Inference: A statistician’s perspective.](https://simons.berkeley.edu/sites/default/files/docs/6713/karwa-statisticalinferenceandprivacy.pdf) 2017.
 
 ## Papers
 Note that this is not a full list, but I will try to make it as comprehensive as possible.
