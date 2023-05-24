@@ -1,12 +1,27 @@
-# Awesome-Differential-Privacy-for-Statisticians
-
-## What is special about 'DP for STAT'?
-1. Knowledge about the population instead of the sample. 
-2. Quantification of uncertainty from various sources (sampling error + noise for privacy protection). 
-3. Art of the tradeoff between statistical utility and privacy. 
+- [Awesome-Differential-Privacy](#awesome-differential-privacy)
+  * [Intro for beginners](#intro-for-beginners)
+  * [What are the privacy issues when not using DP?](#what-are-the-privacy-issues-when-not-using-dp)
+  * [Who are using DP?](#who-are-using-dp)
+    + [How to choose epsilon?](#how-to-choose-epsilon)
+- [Awesome-Differential-Privacy-for-Statisticians](#awesome-differential-privacy-for-statisticians)
+  * [What is special about 'DP for STAT'?](#what-is-special-about-dp-for-stat)
+  * [Statisticians' slides](#statisticians-slides)
+  * [Papers](#papers)
+    + [Top Statistics journals](#top-statistics-journals)
+      - [JASA](#jasa)
+      - [Annals of Statistics](#annals-of-statistics)
+      - [Journal of the Royal Statistical Society. Series B (Statistical Methodology)](#journal-of-the-royal-statistical-society-series-b-statistical-methodology-)
+      - [Journal of the Royal Statistical Society. Series A (Statistics in Society)](#journal-of-the-royal-statistical-society-series-a-statistics-in-society-)
+      - [Bernoulli](#bernoulli)
+      - [Annual Review of Statistics and Its Application](#annual-review-of-statistics-and-its-application)
+      - [Statistical Science](#statistical-science)
+    + [Other journals](#other-journals)
+    + [Thesis](#thesis)
+  * [Professional blogs](#professional-blogs)
+  * [Existing github repos about DP](#existing-github-repos-about-dp)
 
 ---
-(This part is for general readers including statisticians.)
+# Awesome-Differential-Privacy
 ## Intro for beginners
 - [Why differential privacy is awesome](https://desfontain.es/privacy/differential-privacy-awesomeness.html)
 - [Differential Privacy: An Introduction for First Graders](https://www.dataversity.net/differential-privacy-an-introduction-for-first-graders/#)
@@ -51,7 +66,15 @@ The table below is from this paper in 2020: [LinkedIn’s Audience Engagements A
 - Dwork, Cynthia, Nitin Kohli, and Deirdre Mulligan. ["Differential privacy in practice: Expose your epsilons!."](https://journalprivacyconfidentiality.org/index.php/jpc/article/download/689/685/) Journal of Privacy and Confidentiality 9, no. 2 (2019).
 - Nanayakkara, Priyanka, Johes Bater, Xi He, Jessica Hullman, and Jennie Rogers. ["Visualizing privacy-utility trade-offs in differentially private data releases."](https://mucollective.northwestern.edu/files/2022-visualizing_privacy.pdf)  Proceedings on Privacy Enhancing Technologies 2022, no. 2 (2022): 601-618.
 
+
 ---
+# Awesome-Differential-Privacy-for-Statisticians
+
+## What is special about 'DP for STAT'?
+1. Knowledge about the population instead of the sample. 
+2. Quantification of uncertainty from various sources (sampling error + noise for privacy protection). 
+3. Art of the tradeoff between statistical utility and privacy. 
+
 
 ## Statisticians' slides
 - Aleksandra Slavković. [Differentially Private Estimators & Basic Statistical Inference.](http://helper.ipam.ucla.edu/publications/data2010/data2010_8553.pdf) 2010.
