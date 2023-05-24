@@ -1,8 +1,9 @@
+Table of contents
 - [Awesome-Differential-Privacy](#awesome-differential-privacy)
   * [Intro for beginners](#intro-for-beginners)
   * [What are the privacy issues when not using DP?](#what-are-the-privacy-issues-when-not-using-dp)
   * [Who are using DP?](#who-are-using-dp)
-    + [How to choose epsilon?](#how-to-choose-epsilon)
+  * [How to choose epsilon?](#how-to-choose-epsilon)
 - [Awesome-Differential-Privacy-for-Statisticians](#awesome-differential-privacy-for-statisticians)
   * [What is special about 'DP for STAT'?](#what-is-special-about-dp-for-stat)
   * [Statisticians' slides](#statisticians-slides)
@@ -10,8 +11,8 @@
     + [Top Statistics journals](#top-statistics-journals)
       - [JASA](#jasa)
       - [Annals of Statistics](#annals-of-statistics)
-      - [Journal of the Royal Statistical Society. Series B (Statistical Methodology)](#journal-of-the-royal-statistical-society-series-b-statistical-methodology-)
-      - [Journal of the Royal Statistical Society. Series A (Statistics in Society)](#journal-of-the-royal-statistical-society-series-a-statistics-in-society-)
+      - [Journal of the Royal Statistical Society. Series B (Statistical Methodology)](#journal-of-the-royal-statistical-society-series-b-statistical-methodology)
+      - [Journal of the Royal Statistical Society. Series A (Statistics in Society)](#journal-of-the-royal-statistical-society-series-a-statistics-in-society)
       - [Bernoulli](#bernoulli)
       - [Annual Review of Statistics and Its Application](#annual-review-of-statistics-and-its-application)
       - [Statistical Science](#statistical-science)
@@ -19,6 +20,21 @@
     + [Thesis](#thesis)
   * [Professional blogs](#professional-blogs)
   * [Existing github repos about DP](#existing-github-repos-about-dp)
+
+
+Please cite this post using either this `BibTeX` entry
+```
+@misc{wang2023awesome,
+  title   = "Awesome Differential Privacy",
+  author  = "Wang, Zhanyu",
+  year    = "2023",
+  howpublished = "\url{https://github.com/Zhanyu-Wang/Awesome-Differential-Privacy/blob/main/README.md}"
+}
+```
+or just
+
+`Zhanyu Wang. Awesome differential privacy for statisticians. https://github.com/Zhanyu-Wang/Awesome-Differential-Privacy/blob/main/README.md, 2023.`
+
 
 ---
 # Awesome-Differential-Privacy
@@ -60,11 +76,19 @@ The table below is from this paper in 2020: [LinkedIn’s Audience Engagements A
 |  Microsoft - Assistive    AI  | Global | $(4,10^{-7})$ | Not available | Not available |
 |  LinkedIn - Audience    Engagement API  | Global | $(0.15,10^{-10})$ | - | $(34.9,7 \times 10^{-9})$ |
 
-### How to choose epsilon?
+## How to choose epsilon?
 - Lee, Jaewoo, and Chris Clifton. "How much is enough? choosing ε for differential privacy." In Information Security: 14th International Conference, ISC 2011, Xi’an, China, October 26-29, 2011. Proceedings 14, pp. 325-340. Springer Berlin Heidelberg, 2011.
 - Hsu, Justin, Marco Gaboardi, Andreas Haeberlen, Sanjeev Khanna, Arjun Narayan, Benjamin C. Pierce, and Aaron Roth. "Differential privacy: An economic method for choosing epsilon." In 2014 IEEE 27th Computer Security Foundations Symposium, pp. 398-410. IEEE, 2014.
 - Dwork, Cynthia, Nitin Kohli, and Deirdre Mulligan. ["Differential privacy in practice: Expose your epsilons!."](https://journalprivacyconfidentiality.org/index.php/jpc/article/download/689/685/) Journal of Privacy and Confidentiality 9, no. 2 (2019).
 - Nanayakkara, Priyanka, Johes Bater, Xi He, Jessica Hullman, and Jennie Rogers. ["Visualizing privacy-utility trade-offs in differentially private data releases."](https://mucollective.northwestern.edu/files/2022-visualizing_privacy.pdf)  Proceedings on Privacy Enhancing Technologies 2022, no. 2 (2022): 601-618.
+
+## Other blogs
+- [DifferentialPrivacy.org](https://differentialprivacy.org/)
+- [Ted is writing things: On privacy, research, and privacy research.](https://desfontain.es/privacy/friendly-intro-to-differential-privacy.html)
+
+## Other github repos
+- [Billy1900/Awesome-Differential-Privacy](https://github.com/Billy1900/Awesome-Differential-Privacy)
+- [menisadi/awesome-differential-privacy](https://github.com/menisadi/awesome-differential-privacy)
 
 
 ---
@@ -124,29 +148,3 @@ Note that this is not a full list, but I will try to make it as comprehensive as
 ### Thesis 
 - Zhang, Huanyu. ["Statistical inference in the differential privacy model."](https://ecommons.cornell.edu/handle/1813/110688) (2021).  Diss. Cornell University.
 - Wang, Yichen. ["Topics In Differentially Private Statistical Inference"](https://repository.upenn.edu/edissertations/5529/) (2022). Publicly Accessible Penn Dissertations. 5529.
-
----
-
-## Professional blogs
-- [DifferentialPrivacy.org](https://differentialprivacy.org/)
-- [Ted is writing things: On privacy, research, and privacy research.](https://desfontain.es/privacy/friendly-intro-to-differential-privacy.html)
-
-## Existing github repos about DP
-- [Billy1900/Awesome-Differential-Privacy](https://github.com/Billy1900/Awesome-Differential-Privacy)
-- [menisadi/awesome-differential-privacy](https://github.com/menisadi/awesome-differential-privacy)
-
----
-
-Please cite this post using either this `BibTeX` entry
-```
-@misc{wang2023awesome,
-  title   = "Awesome Differential Privacy for Statisticians",
-  author  = "Wang, Zhanyu",
-  year    = "2023",
-  howpublished = "\url{https://github.com/Zhanyu-Wang/Awesome-Differential-Privacy-for-Statisticians/blob/main/README.md}"
-}
-```
-or just
-
-`Zhanyu Wang. Awesome differential privacy for statisticians. https://github.com/Zhanyu-Wang/Awesome-Differential-Privacy-for-Statisticians/blob/main/README.md, 2023.`
-
