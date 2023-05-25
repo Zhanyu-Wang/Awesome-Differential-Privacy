@@ -81,6 +81,7 @@ The table below is from this paper in 2020: [LinkedIn’s Audience Engagements A
 - Hsu, Justin, Marco Gaboardi, Andreas Haeberlen, Sanjeev Khanna, Arjun Narayan, Benjamin C. Pierce, and Aaron Roth. "Differential privacy: An economic method for choosing epsilon." In 2014 IEEE 27th Computer Security Foundations Symposium, pp. 398-410. IEEE, 2014.
 - Dwork, Cynthia, Nitin Kohli, and Deirdre Mulligan. ["Differential privacy in practice: Expose your epsilons!."](https://journalprivacyconfidentiality.org/index.php/jpc/article/download/689/685/) Journal of Privacy and Confidentiality 9, no. 2 (2019).
 - Nanayakkara, Priyanka, Johes Bater, Xi He, Jessica Hullman, and Jennie Rogers. ["Visualizing privacy-utility trade-offs in differentially private data releases."](https://mucollective.northwestern.edu/files/2022-visualizing_privacy.pdf)  Proceedings on Privacy Enhancing Technologies 2022, no. 2 (2022): 601-618.
+- Kazan, Zeki, and Jerome P. Reiter. ["Prioritizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy."](https://conference.nber.org/conf_papers/f178414.slides.pptx)
 
 ## Other blogs
 - [DifferentialPrivacy.org](https://differentialprivacy.org/)
