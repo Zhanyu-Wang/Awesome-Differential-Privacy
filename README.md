@@ -149,3 +149,4 @@ Note that this is not a full list, but I will try to make it as comprehensive as
 ### Thesis 
 - Zhang, Huanyu. ["Statistical inference in the differential privacy model."](https://ecommons.cornell.edu/handle/1813/110688) (2021).  Diss. Cornell University.
 - Wang, Yichen. ["Topics In Differentially Private Statistical Inference"](https://repository.upenn.edu/edissertations/5529/) (2022). Publicly Accessible Penn Dissertations. 5529.
+- Jälkö, Joonas. ["Differentially private approximate Bayesian inference of probabilistic models"](https://aaltodoc.aalto.fi/handle/123456789/120501) (2023). Aalto University, Department of Computer Science.
