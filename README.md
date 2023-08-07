@@ -122,6 +122,7 @@ Note that this is not a full list, but I will try to make it as comprehensive as
 - Tian, Xiaoying, and Jonathan Taylor. "Selective inference with a randomized response." 2018.
 - Rohde, Angelika, and Lukas Steinberger. "Geometrizing rates of convergence under local differential privacy constraints." 2020.
 - Cai, T. Tony, Yichen Wang, and Linjun Zhang. "The cost of privacy: Optimal rates of convergence for parameter estimation with differential privacy." 2021.
+- Awan, Jordan, and Salil Vadhan. "Canonical noise distributions and private hypothesis tests." 2023.
 
 #### Journal of the Royal Statistical Society. Series B (Statistical Methodology)
 - Dong, Jinshuo, Aaron Roth, and Weijie J. Su. "Gaussian differential privacy." 2022.
