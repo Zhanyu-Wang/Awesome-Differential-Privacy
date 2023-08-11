@@ -147,6 +147,7 @@ Note that this is not a full list, but I will try to make it as comprehensive as
 ### Other journals
 - Dwork, Cynthia, and Adam Smith. ["Differential privacy for statistics: What we know and what we want to learn."](https://journalprivacyconfidentiality.org/index.php/jpc/article/download/570/553/584) Journal of Privacy and Confidentiality 1.2 (2010).
 - Duchi, John C., Michael I. Jordan, and Martin J. Wainwright. ["Local privacy and statistical minimax rates."](https://ieeexplore.ieee.org/abstract/document/6686179/) 2013 IEEE 54th Annual Symposium on Foundations of Computer Science. IEEE, 2013.
+- [Harvard Data Science Review, Special Issue 2: Differential Privacy for the 2020 U.S. Census](https://hdsr.mitpress.mit.edu/specialissue2)
 
 ### Thesis 
 - Zhang, Huanyu. ["Statistical inference in the differential privacy model."](https://ecommons.cornell.edu/handle/1813/110688) (2021).  Diss. Cornell University.
