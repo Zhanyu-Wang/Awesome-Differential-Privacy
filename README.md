@@ -136,6 +136,7 @@ Note that this is not a full list, but I will try to make it as comprehensive as
 - Lam-Weil, J., Laurent, B., & Loubes, J. M. ["Minimax optimal goodness-of-fit testing for densities and multinomials under a local differential privacy constraint."](https://arxiv.org/pdf/2002.04254.pdf) 2022.
 
 #### Annual Review of Statistics and Its Application
+- Dwork, Cynthia, Adam Smith, Thomas Steinke, and Jonathan Ullman. "Exposed! a survey of attacks on private data." 2017.
 - Reiter, Jerome P. "Differential privacy and federal data releases." 2019.
 - Slavković, Aleksandra, and Jeremy Seeman. "Statistical data privacy: A song of privacy and utility." 2023.
 - Craiu, Radu V., Ruobin Gong, and Xiao-Li Meng. "Six Statistical Senses." 2023.
